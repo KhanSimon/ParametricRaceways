@@ -8,7 +8,6 @@ Ce projet est un jeu dans lequel l'utilisateur rentre une fonction mathématique
 
 Vous aurez besoin de PyOpenGL, GLFW, Rich et Numpy dans votre machine. Pour les installer sasir la commande :
 
-<<<<<<< HEAD
 ```
 pip3 install -r requirements.txt
 =======
