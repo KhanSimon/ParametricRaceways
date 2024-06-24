@@ -4,7 +4,7 @@ Ce projet est un jeu dans lequel l'utilisateur rentre une fonction mathématique
 
 # Installation
 
-Vous aurez besoin de PyOpenGL, GLFW et Numpy dans votre machine. Pour les installer sasir la commande :
+Vous aurez besoin de PyOpenGL, GLFW, Rich et Numpy dans votre machine. Pour les installer sasir la commande :
 
     pip3 install -r requirements.txt
 
