@@ -1,6 +1,7 @@
 # Parametric Raceways
+demo (image clicable):
+[![Video link](https://img.youtube.com/vi/sotObIvhX3Q/0.jpg)](https://www.youtube.com/watch?v=sotObIvhX3Q)
 
-[https://youtu.be/sotObIvhX3Q?si=3T_YiiyDfeHg05sk](https://youtu.be/sotObIvhX3Q?si=3T_YiiyDfeHg05sk)
 
 Ce projet est un jeu dans lequel l'utilisateur rentre une fonction mathématiques et peut ainsi contrôler une voiture sur la route créée à partir de la fonction mathématique saisie.
 
@@ -10,9 +11,6 @@ Vous aurez besoin de PyOpenGL, GLFW, Rich et Numpy dans votre machine. Pour les 
 
 ```
 pip3 install -r requirements.txt
-=======
-Vous aurez besoin de PyOpenGL, GLFW, Rich et Numpy dans votre machine. Pour les installer sasir la commande :
->>>>>>> c58d5192aa2106ae0cb47ebea747f5cfae01b639
 
 ```
 
