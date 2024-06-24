@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import math
 
 longueurCircuit = 100
@@ -9,13 +9,14 @@ def getXYvectors(f, N):
     Y = f(X)
     return X,Y
 
+'''
 def printFunction(X, Y):
     plt.plot(X,Y, linewidth = 9.0)
     axes = plt.gca()
     axes.set_ylim(-50, 50)
     plt.grid()
     plt.show()
-
+'''
 
 #plus k est élevé, moins le cictuit a de dénivelés
 def denivMax(N, k):

@@ -1,21 +1,28 @@
 # Parametric Raceways
 
+[https://youtu.be/sotObIvhX3Q?si=3T_YiiyDfeHg05sk](https://youtu.be/sotObIvhX3Q?si=3T_YiiyDfeHg05sk)
+
 Ce projet est un jeu dans lequel l'utilisateur rentre une fonction mathématiques et peut ainsi contrôler une voiture sur la route créée à partir de la fonction mathématique saisie.
 
-# Installation
+**Installation**
 
-Vous aurez besoin de PyOpenGL, GLFW et Numpy dans votre machine. Pour les installer sasir la commande :
+Vous aurez besoin de PyOpenGL, GLFW, Rich et Numpy dans votre machine. Pour les installer sasir la commande :
 
-    pip3 install -r requirements.txt
+```
+pip3 install -r requirements.txt
 
-## Lancer l'application
+```
+
+**Lancer l'application** 
 
 Pour lancer le jeu :
 
-    python3 ./src/viewer.py
+```
+python3 ./src/viewer.py
 
+```
 
-Ensuite le terminal demandera de saisir la fonction qui devra être de la forme "np.cos(x)" en utilisant la librarie numpy pour les fonctions complexes.
+Ensuite le terminal demandera de saisir la fonction qui devra être de la forme "np.cos(x)" en utilisant la librairie numpy pour les fonctions complexes.
 
 Il faut savoir que toutes les fonctions ne sont pas compatibles, choisir de préférence une fonction telle que f(0) = 0 ou telle que l'ordonnée à l'origine soit proche de 0.
 
@@ -28,11 +35,9 @@ Exemples de fonctions adaptées :
 - 1.4*np.cos(x)*np.log(x+0.3)
 - 1 - np.exp(np.sin(x/3))
 
-Le terminal proposera le choix entre une route avec dénivelé et sans. Seul la route sans dénivelé fonctionne pour l'instant. Nous n'avons pas eu le temps d'implémenter les dénivelés.
+Le terminal proposera le choix entre une route avec dénivelé et sans. Seule la route sans dénivelé fonctionne pour l'instant. Nous n'avons pas eu le temps d'implémenter les dénivelés.
 
-
-
-# Jeu
+**Jeu**
 
 Lors du jeu vous pouvez vous déplacez avec les touches Z, Q, S, D et accélérer avec espace :
 
@@ -40,8 +45,6 @@ Lors du jeu vous pouvez vous déplacez avec les touches Z, Q, S, D et accélére
 - S : Reculer
 - Q : Tourner à gauche
 - D : Tourner à droite
-
 - Espace : Accélérer
-
 
 Le but du jeu est d'arriver au bout de la route.
